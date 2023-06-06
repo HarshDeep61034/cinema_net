@@ -1,0 +1,15 @@
+main{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(16, 16, 16);
+}
+
+.head-trend{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 20px 0px;
+}
