@@ -1,5 +1,6 @@
 main{
     width: 100vw;
+    min-height: 86vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,4 +13,11 @@ main{
     text-align: center;
     font-size: 55px;
     padding: 20px 0px;
+}
+
+@media only screen and (max-width: 888px) {
+    .head-trend{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
 }

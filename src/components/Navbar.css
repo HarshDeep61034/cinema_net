@@ -66,6 +66,37 @@ nav{
     margin: 0px 40px;
 }
 
-.uis-house-user:hover{
+.uis-house-user:active{
     color: rgb(183, 182, 182);
 }
+
+@media only screen and (max-width: 888px) {
+    nav{}
+    .logo-head{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .profile{
+        width: 30px;
+        right: 25px;
+    }
+
+    .uis-house-user{
+        font-size: 25px;
+        margin: 0px 40px;
+    }
+    .input-box{
+        width: 150px;
+        height: 20px;
+        margin: 0px 50px;
+        background-color: rgba(256,256,256, 0.7);
+        border-radius: 2px;
+        border: none;
+        padding: 0px 4px;
+        transition: all 0.4s;
+        outline: none;
+        font-size: 12px;
+        position: absolute;
+        right: 20px;
+    }
+  }

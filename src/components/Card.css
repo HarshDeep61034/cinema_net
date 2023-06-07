@@ -40,3 +40,42 @@
     color: grey;
     font-weight: 400;
 }
+
+
+@media only screen and (max-width: 888px) {
+    .container{
+        width: 160px;
+        height: 230px;
+        border-radius: 7px;
+        overflow: hidden;
+        margin: 8px;
+        cursor: pointer;
+        box-shadow: 0px 2px 2px 4px rgba(0,0,0,0.3);
+        transition: all 0.4s;
+    }
+
+    .poster{
+        border-radius: 7px;
+    }
+
+    .card-info{
+        font-size: 12px;
+        color: grey;
+        font-weight: 400;
+    }
+
+    .title{
+        font-size: 13px;
+    }
+    
+    .box{
+        left: -10px;
+        position: relative;
+        width: 145px;
+        top: 60px;
+    }
+
+    .overlay{
+        width: 160px;
+    }
+}

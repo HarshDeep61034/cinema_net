@@ -13,8 +13,10 @@ import "./Card.css"
   <div className="container" onClick={()=>props.change(props.id)}>
   <img className="poster" src={`https://image.tmdb.org/t/p/original${props.poster}`}/>
   <div className="overlay" >
-    <h1>{props.title}</h1>
-    <span className="card-info">{date}  •  {rating}<i className="uis uis-favorite"></i> </span>
+<div className="box">
+<span className="card-info">{date}  •  {rating}<i className="uis uis-favorite"></i> </span>
+    <h1 className="title">{props.title}</h1>
+</div>
   </div>
     </div>
     
